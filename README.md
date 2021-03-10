@@ -81,6 +81,9 @@ scss({
 
   // Enables/disables generation of source map (default: false)
   sourceMap: true,
+  
+  // Embeds the sourcemap into the resulting css file
+  sourceMapEmbed: true,
 
   // Choose files to include in processing (default: ['/**/*.css', '/**/*.scss', '/**/*.sass'])
   include: [],
